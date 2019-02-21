@@ -3,18 +3,26 @@ using namespace std;
 void add();
 void sub();
 void mult();
+void div();
+void div()
+{
+float s,r;
+cout<<"Enter two no.s\n";
+cout<<"Division : "s/r;
+}
+
 	void mult()
 {
 	int p,q;
 	cout<<"Enter two nos.\n"
-		cout<<"Multiplication : "<<a*b;
+		cout<<"Multiplication : "<<p*q;
 }
 
 void sub()
 {
 int x,y;
 cout<<"Enter two no.s\n"
-	cout<<"Substraction : "<<a-b;
+	cout<<"Substraction : "<<x-y;
 }
 void add()
 {
@@ -44,8 +52,14 @@ break;
 
 mult();
 break;
-
+	case 4:
+div();
+break;
+	case 5:
+exit();
+	default:
+cout<<"Invalid Input Try Again";
 	}
-}
+       }  
 return 0;
 }
